@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
   "name": "io.github.armin5872/optiqra-mcp",
   "description": "MCP server exposing OptiQra's website audit tools (full SEO/GEO/AEO/performance/accessibility/security analysis, AI-generated fixes, AI insights, and AI key testing) to MCP-compatible clients.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "url": "https://github.com/armin5872/optiqra-mcp",
     "source": "github"
@@ -12,7 +12,7 @@
     {
       "registry_type": "npm",
       "identifier": "optiqra-mcp",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "runtime_hint": "npx",
       "transport": {
         "type": "stdio"
