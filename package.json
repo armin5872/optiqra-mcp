@@ -1,6 +1,7 @@
 {
   "name": "optiqra-mcp",
-  "version": "1.0.3",
+  "version": "1.0.4",
+  "mcpName": "io.github.armin5872/optiqra-mcp",
   "description": "MCP server exposing OptiQra's website audit tools (analyze, AI fix, AI insights, AI key test) to MCP-compatible AI clients.",
   "type": "module",
   "main": "src/index.js",
