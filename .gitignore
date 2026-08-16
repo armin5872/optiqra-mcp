@@ -1,0 +1,39 @@
+# Dependencies
+/node_modules
+
+# Next.js
+/.next/
+/out/
+/build
+
+# Env files — never commit real secrets
+.env
+.env*.local
+
+# Testing
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/coverage
+
+# Misc
+.DS_Store
+*.pem
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
