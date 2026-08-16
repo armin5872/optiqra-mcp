@@ -1,0 +1,33 @@
+{
+  "name": "optiqra-mcp",
+  "version": "1.0.0",
+  "description": "MCP server exposing OptiQra's website audit tools (analyze, AI fix, AI insights, AI key test) to MCP-compatible AI clients.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "optiqra-mcp": "src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "optiqra",
+    "seo",
+    "geo",
+    "aeo",
+    "website-audit"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^3.23.8"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
