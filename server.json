@@ -1,8 +1,8 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.armin5872/optiqra-mcp",
-  "description": "MCP server exposing OptiQra's website audit tools (full SEO/GEO/AEO/performance/accessibility/security analysis, AI-generated fixes, AI insights, and AI key testing) to MCP-compatible clients.",
-  "version": "1.0.2",
+  "description": "MCP server exposing OptiQra's website audit tools: SEO, GEO, AEO, and AI-generated fixes.",
+  "version": "1.0.3",
   "repository": {
     "url": "https://github.com/armin5872/optiqra-mcp",
     "source": "github"
@@ -10,41 +10,32 @@
   "websiteUrl": "https://optiqra.vercel.app",
   "packages": [
     {
-      "registry_type": "npm",
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
       "identifier": "optiqra-mcp",
-      "version": "1.0.2",
-      "runtime_hint": "npx",
+      "version": "1.0.3",
+      "runtimeHint": "npx",
       "transport": {
         "type": "stdio"
       },
-      "environment_variables": [
+      "environmentVariables": [
         {
           "name": "OPTIQRA_BASE_URL",
           "description": "Base URL of the OptiQra instance to call. Defaults to https://optiqra.vercel.app.",
-          "is_required": false
+          "isRequired": false
         },
         {
           "name": "OPTIQRA_PROVIDER_API_KEY",
           "description": "Default AI-provider API key used by the ai-fix/ai-insights/ai-test tools if the caller doesn't pass one.",
-          "is_required": false,
-          "is_secret": true
+          "isRequired": false,
+          "isSecret": true
         },
         {
           "name": "OPTIQRA_TIMEOUT_MS",
           "description": "Request timeout in milliseconds. Defaults to 120000.",
-          "is_required": false
+          "isRequired": false
         }
       ]
     }
-  ],
-  "tags": [
-    "seo",
-    "geo",
-    "aeo",
-    "website-audit",
-    "accessibility",
-    "performance",
-    "security",
-    "crawler"
   ]
 }

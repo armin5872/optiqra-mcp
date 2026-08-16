@@ -1,6 +1,6 @@
 {
   "name": "optiqra-mcp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "MCP server exposing OptiQra's website audit tools (analyze, AI fix, AI insights, AI key test) to MCP-compatible AI clients.",
   "type": "module",
   "main": "src/index.js",
